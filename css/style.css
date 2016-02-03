@@ -9,13 +9,19 @@ body {
 }
 
 .layout-center {
-	width: 1140px;
+	width: 1100px;
+	padding: 0 20px;
 	margin: 0 auto;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+h1,h2,p {
+	margin: 0;
+	padding: 0;
 }
 
 .clearfix:after {
@@ -25,14 +31,15 @@ img {
 }
 
 .main-header {
-	padding-top: 60px;
-	padding-right: 111px;
-	background-color: #f49197;
+	padding-top: 60px;	
+	padding-bottom: 146px;
+	background: url("../img/header-bg.png") no-repeat 50% 0,#f49197;
 }
 
 .menu {
 	float: right;
 	width: 640px;
+	margin-right: 111px;
 	margin-bottom: 144px;
 	font-size: 0;
 	text-align: right;		
@@ -87,4 +94,119 @@ img {
 	color: #f57a82;
 	background-color: #ffffff;
 	border-radius: 3px;
+}
+
+.section {
+	padding: 106px 0;
+	text-align: center;
+}
+
+.section-title {
+	position: relative;
+	margin-bottom: 53px;
+	font-family: "Oxygen","Arial", sans-serif;
+	font-size: 38px;
+	line-height: 45px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.38px;	
+}
+
+.section-title:after {
+	position: absolute;	
+	bottom: -22px;
+	left: 50%;
+	transform: translateX(-50%);
+	content: "";
+	width: 87px;
+	height: 4px;
+	background-color: rgb(142, 203, 191);	
+}
+
+.section-text {	
+	width: 720px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+	font-family: "Raleway","Arial",sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 26px;	
+	letter-spacing: 0.9px;
+}
+
+.article-wrapper {
+	font-size: 0;
+}
+
+.article-title {
+	margin-bottom: 22px;
+	font-family: "Oxygen","Arial",sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 31px;
+	letter-spacing: 0.075px;
+	text-transform: uppercase;
+}
+
+.article-text {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.services {
+	color: #ffffff;
+	background-color: #5db5a4;	
+}
+
+.service-item {
+	display: inline-block;
+	width: 190px;
+	padding: 0 35px;
+	margin-right: 20px;
+}
+
+.service-item:last-child {
+	margin-right: 0;
+}
+
+.team {
+	background-color: #eefafb;
+}
+
+.team .section-title:after {
+	background-color: #d6e1e1;
+}
+
+.team-item {
+	display: inline-block;
+	width: 190px;
+	padding: 0 35px;
+	margin-right: 20px;
+}
+
+.team-item:last-child {
+	margin-right: 0;
+}
+
+.avatar {
+	margin-bottom: 35px;
+}
+
+.avatar img {
+	border-radius: 50%;
+}
+
+.team-item .article-title {
+	margin-bottom: 11px;
+	font-weight: normal;
+}
+
+.position {
+	display: block;
+	margin-bottom: 23px;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 0.1px;
+	text-transform: uppercase;
 }
