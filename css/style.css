@@ -217,6 +217,7 @@ h1,h2,p {
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 31px;
+  /*letter-spacing: 1.65px;*/
 	letter-spacing: 0.075px;
 	text-transform: uppercase;
 }
@@ -360,6 +361,101 @@ h1,h2,p {
 
 .reviews .section-title:after {
   background-color: #f2869f;
+}
+
+.review-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 540px;
+  margin-right: 20px;
+  margin-bottom: 168px;
+}
+
+.review-item:nth-child(2n) {
+  width: 510px;
+  margin-right: 0;
+  padding-left: 30px;
+}
+
+.review-item:nth-child(3),
+.review-item:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.review-item .avatar {
+  float: left;
+  width: 102px;
+  margin-right: 50px;
+}
+
+.review-info {
+  float: right;
+  width: 388px;
+  text-align: left;
+}
+
+.review-item:nth-child(2n) .review-info {
+  width: 358px;
+}
+
+.review-item .article-text {
+  margin-bottom: 23px;
+}
+
+.review-item .article-title {
+  margin-bottom: 5px;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+.review-item .position {
+  font-size: 12px;
+  line-height: 26px;
+}
+
+.feedback-form {
+  font-size: 0;
+  padding: 0 120px;
+}
+
+.feedback-form input[type="text"] {
+  display: inline-block;
+  vertical-align: top;
+  width: 362px;
+  padding: 16.5px 25px;
+  margin-right: 32px;
+  margin-bottom: 27px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(56, 56, 56, 0.5);
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+}
+
+.feedback-form input[name="email"] {
+  margin-right: 0;
+}
+
+.feedback-form textarea {
+  width: 808px;
+  height: 198px;
+  padding: 16.5px 25px;
+  margin-bottom: 59px;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(56, 56, 56, 0.5);
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  resize: none;
+}
+
+.btn-feedback {
+  color: #ffffff;
+  background-color: #ed5276;
+  border: none;
+  outline: none;
 }
 
 
