@@ -301,7 +301,41 @@ h1,h2,p {
   margin-right: 0;
 }
 
-/*todo styles for skills*/
+.skill-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.skill-item:last-child {
+  margin-right: 0;
+}
+
+.skills .section-title:after {
+  background-color: #e5e5e5;
+}
+
+.chart {
+  width: 260px;
+  height: 160px;
+  margin-bottom: 32px;
+}
+
+.chart canvas {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.percent {
+  margin-top: 45px;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.skill-item .article-title {
+  margin-bottom: 0;
+}
 
 .portfolio {
   padding-bottom: 0;
@@ -413,6 +447,10 @@ h1,h2,p {
   line-height: 26px;
 }
 
+.feedback .section-title:after {
+  background-color: #e5e5e5;
+}
+
 .feedback-form {
   font-size: 0;
   padding: 0 120px;
@@ -456,6 +494,33 @@ h1,h2,p {
   background-color: #ed5276;
   border: none;
   outline: none;
+}
+
+.footer {
+  padding: 57px 0;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.footer-text {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+  margin-bottom: 37px;
+}
+
+.footer-socials a {
+  font-size: 45px;
+  color: #000000;
+  text-decoration: none;
+  opacity: 0.3;
+  margin-right: 33px;
+}
+
+.footer-socials a:hover {
+  opacity: 1;
 }
 
 

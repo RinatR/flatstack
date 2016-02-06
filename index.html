@@ -3,10 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Index</title>
+  <link href="css/jquery.easypiechart.css" rel="stylesheet"type="text/css">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 	<header class="main-header">
@@ -125,10 +127,30 @@
 				<h1 class="section-title">We got skills</h1>
 				<p class="section-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis recusandae error expedita consequuntur</p>
 				<div class="article-wrapper">
-					<article class="skill-item"></article>
-					<article class="skill-item"></article>
-					<article class="skill-item"></article>
-					<article class="skill-item"></article>
+					<article class="skill-item">
+            <div class="chart web-design" data-percent="90">
+              <span class="percent"></span>
+            </div>
+            <h2 class="article-title">Web Design</h2>
+          </article>
+					<article class="skill-item">
+            <div class="chart html-css" data-percent="75">
+              <span class="percent"></span>
+            </div>
+            <h2 class="article-title">HTML / CSS</h2>
+          </article>
+					<article class="skill-item">
+            <div class="chart graphic-design" data-percent="70">
+              <span class="percent"></span>
+            </div>
+            <h2 class="article-title">Graphic Design</h2>
+          </article>
+					<article class="skill-item">
+            <div class="chart ui-ux" data-percent="85">
+              <span class="percent"></span>
+            </div>
+            <h2 class="article-title">UI / UX</h2>
+          </article>
 				</div>
 			</div>
 		</section>
@@ -140,7 +162,7 @@
       <div class="portfolio-list">
         <div class="portfolio-filter">
           <a class="filter-item current" href="#">All</a>
-          <a class="filter-item current" href="#">Web</a>
+          <a class="filter-item" href="#">Web</a>
           <a class="filter-item" href="#">Apps</a>
           <a class="filter-item" href="#">Icons</a>
         </div>
@@ -229,6 +251,17 @@
 		</section>
 	</main>
 	<footer class="footer">
+    <span class="footer-text">Follow us</span>
+    <div class="footer-socials">
+      <a class="icon-github-circled" href="#"></a>
+      <a class="icon-twitter" href="#"></a>
+      <a class="icon-dribbble" href="#"></a>
+      <a class="icon-linkedin" href="#"></a>
+      <a class="icon-mail-alt" href="#"></a>
+    </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="js/jquery.easypiechart.js"></script>
+  <script src="js/draw-skill-charts.js"></script>
 </body>
 </html>
