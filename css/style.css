@@ -69,7 +69,7 @@
 .icon-instagram:before { content: '\e80a'; } /* '' */
 
 body {
-	width: 1440px;
+	max-width: 1440px;
 	font-family: "Raleway","Arial",sans-serif;
 	font-weight: normal;
 	font-size: 16px;
