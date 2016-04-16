@@ -234,7 +234,7 @@ h1,h2,p {
 
 .service-item {
 	display: inline-block;
-	width: 190px;
+	width: 180px;
 	padding: 0 35px;
 	margin-right: 20px;
 }
@@ -253,7 +253,7 @@ h1,h2,p {
 
 .team-item {
 	display: inline-block;
-	width: 190px;
+	width: 180px;
 	padding: 0 35px;
 	margin-right: 20px;
 }
@@ -316,7 +316,7 @@ h1,h2,p {
 }
 
 .chart {
-  width: 260px;
+  width: 250px;
   height: 160px;
   margin-bottom: 32px;
 }
@@ -406,7 +406,7 @@ h1,h2,p {
 }
 
 .review-item:nth-child(2n) {
-  width: 510px;
+  width: 500px;
   margin-right: 0;
   padding-left: 30px;
 }
@@ -419,7 +419,7 @@ h1,h2,p {
 .review-item .avatar {
   float: left;
   width: 102px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 .review-info {
